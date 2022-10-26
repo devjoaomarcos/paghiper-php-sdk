@@ -53,7 +53,7 @@ class Pix extends Resource
             ]
         )['status_request'];
 
-        if ($transactionStatus['pix_create_request']['result'] === 'reject') {
+        if ($transactionStatus['result'] === 'reject') {
             throw new PagHiperException($transactionStatus['response_message'], 400);
         }
 
