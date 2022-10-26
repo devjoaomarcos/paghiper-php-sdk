@@ -1,5 +1,5 @@
 {
-    "name": "webmasterdro/paghiper-php-sdk",
+    "name": "devjoaomarcos/paghiper-php-sdk",
     "description": "Biblioteca de integração PHP PagHiper",
     "keywords": [
         "paghiper"
@@ -8,7 +8,13 @@
     "authors": [
         {
             "name": "Pedro Lima",
-            "email": "pedro-octavio@hotmail.com"
+            "email": "pedro-octavio@hotmail.com",
+            "role": "developer"
+        },
+        {
+            "name": "João Marcos",
+            "email": "dev.joaomarcoslima@gmail.com",
+            "role": "support"
         }
     ],
     "require": {
